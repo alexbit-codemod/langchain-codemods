@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+name: "langchain-stream-event-agent-to-model"
+version: "0.1.0"
+description: "Rename streaming event node name from 'agent' to 'model' in LangChain code"
+author: "Alex Bit<alex@codemod.com>"
+license: "MIT"
+workflow: "workflow.yaml"
+category: "migration"
+
+targets:
+  languages: ["python"]
+
+keywords:
+  - langchain
+  - streaming
+  - agent
+  - model
+  - migration
+  - breaking-change
+
+registry:
+  access: "public"
+  visibility: "public"
+
