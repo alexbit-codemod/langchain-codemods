@@ -1,0 +1,23 @@
+version: "1"
+
+nodes:
+  - id: transform
+    name: Rename prompt to system_prompt in agent creation calls
+    type: automatic
+    steps:
+      - id: run-codemod
+        name: Run JSSG codemod
+        js-ast-grep:
+          js_file: scripts/codemod.ts
+          language: python
+          semantic_analysis: workspace
+          include:
+            - "**/*.py"
+          exclude:
+            - "**/test_*.py"
+            - "**/*_test.py"
+            - "**/tests/**"
+            - "**/__pycache__/**"
+            - "**/venv/**"
+            - "**/.venv/**"
+

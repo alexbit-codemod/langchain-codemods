@@ -1,0 +1,9 @@
+name: langchain/prompt-to-system-prompt
+version: 1.0.0
+description: >
+  Renames the `prompt` keyword argument to `system_prompt` in calls to
+  `create_agent()` or `create_react_agent()`. Skips transformation if both
+  arguments are present. Uses semantic analysis to verify the call target.
+engine: jssg
+language: python
+
