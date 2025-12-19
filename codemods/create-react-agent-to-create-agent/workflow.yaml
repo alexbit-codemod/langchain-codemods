@@ -2,6 +2,7 @@ version: "1"
 name: langchain/create-react-agent-to-create-agent
 nodes:
   - id: transform
+    name: transform
     js-ast-grep:
       js_file: scripts/codemod.ts
       include:
