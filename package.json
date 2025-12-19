@@ -1,8 +1,8 @@
 {
-  "name": "<SCOPE>-codemods",
+  "name": "langchain-codemods",
   "private": true,
   "version": "0.1.0",
-  "description": "Codemods for <SCOPE>",
+  "description": "Codemods for langchain",
   "type": "module",
   "scripts": {
     "lint": "npx -y @biomejs/biome lint .",
