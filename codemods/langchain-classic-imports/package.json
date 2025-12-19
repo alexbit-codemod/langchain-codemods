@@ -1,0 +1,15 @@
+{
+	"name": "langchain-classic-imports",
+	"version": "0.1.0",
+	"description": "Migrate LangChain v1 legacy imports from langchain to langchain-classic",
+	"type": "module",
+	"devDependencies": {
+		"@codemod.com/jssg-types": "^1.0.3",
+		"typescript": "^5.8.3"
+	},
+	"scripts": {
+		"test": "npx codemod@latest jssg test -l python ./scripts/codemod.ts",
+		"check-types": "npx tsc --noEmit"
+	}
+}
+
