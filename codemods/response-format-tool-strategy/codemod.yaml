@@ -1,0 +1,19 @@
+schema_version: "1.0"
+
+name: "response-format-tool-strategy"
+version: "0.1.0"
+description: "Migrate response_format=Schema to response_format=ToolStrategy(Schema) for LangChain v1"
+author: "Alex Bit<alex@codemod.com>"
+license: "MIT"
+workflow: "workflow.yaml"
+category: "migration"
+
+targets:
+  languages: ["python"]
+
+keywords: ["langchain", "migration", "structured-output", "tool-strategy"]
+
+registry:
+  access: "public"
+  visibility: "public"
+
