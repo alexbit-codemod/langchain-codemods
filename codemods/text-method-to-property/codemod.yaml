@@ -1,0 +1,19 @@
+schema_version: "1.0"
+
+name: "text-method-to-property"
+version: "0.1.0"
+description: "Transform deprecated .text() method calls to .text property access for LangChain v1"
+author: "Alex Bit<alex@codemod.com>"
+license: "MIT"
+workflow: "workflow.yaml"
+category: "migration"
+
+targets:
+  languages: ["python"]
+
+keywords: ["langchain", "migration", "python", "v1", "deprecation"]
+
+registry:
+  access: "public"
+  visibility: "public"
+
