@@ -1,0 +1,15 @@
+{
+	"name": "unwrap-tool-node-in-agent",
+	"version": "0.1.0",
+	"description": "Transform tools=ToolNode(ARG) to tools=ARG in create_agent/create_react_agent calls",
+	"type": "module",
+	"devDependencies": {
+		"@codemod.com/jssg-types": "^1.0.3",
+		"typescript": "^5.8.3"
+	},
+	"scripts": {
+		"test": "npx codemod@latest jssg test -l python ./scripts/codemod.ts",
+		"check-types": "npx tsc --noEmit"
+	}
+}
+
