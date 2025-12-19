@@ -1,0 +1,15 @@
+{
+	"name": "response-format-tool-strategy",
+	"version": "0.1.0",
+	"description": "Migrate response_format=Schema to response_format=ToolStrategy(Schema) for LangChain v1",
+	"type": "module",
+	"devDependencies": {
+		"@codemod.com/jssg-types": "^1.0.3",
+		"typescript": "^5.8.3"
+	},
+	"scripts": {
+		"test": "npx codemod@latest jssg test -l python ./scripts/codemod.ts",
+		"check-types": "npx tsc --noEmit"
+	}
+}
+
