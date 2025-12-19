@@ -1,0 +1,14 @@
+{
+  "name": "langchain-system-message-to-prompt",
+  "version": "0.1.0",
+  "description": "Replace SystemMessage(content=...) with string in create_agent/create_react_agent calls",
+  "type": "module",
+  "scripts": {
+    "test": "codemod jssg test -l python ./scripts/codemod.ts"
+  },
+  "devDependencies": {
+    "@codemod.com/jssg-types": "^0.1.0",
+    "typescript": "^5.0.0"
+  }
+}
+
