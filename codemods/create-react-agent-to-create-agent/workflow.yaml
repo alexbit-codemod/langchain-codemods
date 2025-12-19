@@ -1,7 +1,7 @@
 version: "1"
 name: langchain/create-react-agent-to-create-agent
 nodes:
-  transform:
+  - id: transform
     js-ast-grep:
       js_file: scripts/codemod.ts
       include:
@@ -13,4 +13,3 @@ nodes:
         - "**/__pycache__/**"
         - "**/venv/**"
         - "**/.venv/**"
-
