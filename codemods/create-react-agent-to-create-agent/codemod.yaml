@@ -1,0 +1,8 @@
+name: langchain/create-react-agent-to-create-agent
+version: 1.0.0
+description: >
+  Migrates from langgraph.prebuilt.create_react_agent to langchain.agents.create_agent.
+  Updates import statements and renames all call sites.
+engine: jssg
+language: python
+

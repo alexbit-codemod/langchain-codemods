@@ -1,0 +1,14 @@
+{
+  "name": "langchain-create-react-agent-to-create-agent",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "npx codemod jssg test -l python ./scripts/codemod.ts",
+    "run": "npx codemod workflow run -w ./workflow.yaml -t"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
+
