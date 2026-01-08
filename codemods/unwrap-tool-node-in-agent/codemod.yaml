@@ -1,0 +1,18 @@
+schema_version: "1.0"
+
+name: "unwrap-tool-node-in-agent"
+version: "0.1.0"
+description: "Transform tools=ToolNode(ARG) to tools=ARG in create_agent/create_react_agent calls"
+author: "Alex Bit <alex@codemod.com>"
+license: "MIT"
+workflow: "workflow.yaml"
+category: "migration"
+
+targets:
+  languages: ["python"]
+
+keywords: ["langgraph", "langchain", "migration", "ToolNode", "create_agent", "create_react_agent"]
+
+registry:
+  access: "public"
+  visibility: "public"
