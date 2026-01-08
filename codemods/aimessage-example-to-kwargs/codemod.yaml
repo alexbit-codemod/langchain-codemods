@@ -1,0 +1,19 @@
+schema_version: "1.0"
+
+name: "aimessage-example-to-kwargs"
+version: "0.1.0"
+description: "Migrate AIMessage example parameter to additional_kwargs for LangChain v1"
+author: "Alex Bit<alex@codemod.com>"
+license: "MIT"
+workflow: "workflow.yaml"
+category: "migration"
+
+targets:
+  languages: ["python"]
+
+keywords: ["langchain", "migration", "aimessage", "python"]
+
+registry:
+  access: "public"
+  visibility: "public"
+
